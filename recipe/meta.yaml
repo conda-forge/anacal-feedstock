@@ -1,6 +1,6 @@
 {% set name = "AnaCal" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "b1c698b878db3380a4db82729098fe9f0d322c089c2d2e38c176d0b331f16b72" %}
+{% set version = "0.5.3" %}
+{% set sha256 = "2f8cac1d1d8387ca6d43d5b32f0727b26132981201c88ac09b899836d2543b97" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<310 or win]
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
