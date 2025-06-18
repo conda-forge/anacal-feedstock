@@ -23,6 +23,7 @@ requirements:
   host:
     - python
     - setuptools >=38
+    - setuptools_scm
     - fftw >=3.3
     - pybind11 >=2.2
     - pip
