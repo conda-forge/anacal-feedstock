@@ -1,6 +1,6 @@
 {% set name = "AnaCal" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "f588090f56548f2e1d4e3ec1be0edc3acd4f83975b3c342d610946585fdba396" %}
+{% set version = "0.6.3" %}
+{% set sha256 = "668189672949e1101b2a7f94ab365893dd49bcff12509b6a4bfd5db44ca99287" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<310 or win]
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION_FOR_ANACAL={{ version }}
