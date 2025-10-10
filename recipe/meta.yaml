@@ -1,6 +1,6 @@
 {% set name = "AnaCal" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "f9a5234a93964f02365ffb3943ffdb5e14e5c6cd0a2180385202c90e7a704091" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "3c18cc136b614d1408df911f587a089f815dc8749e093df2683731ab384312df" %}
 
 package:
   name: {{ name|lower }}
